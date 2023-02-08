@@ -1,0 +1,96 @@
+body {
+  font-family: 'Courier Prime', monospace;
+  color: #eee;
+  background-color: #121212;
+}
+
+h1, h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 1.75em;
+  color: #FFA07A;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFA07A;
+}
+
+.container {
+  margin: 32px auto;
+  width: 800px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card {
+  background-color:#1F1F1F;
+  padding: 32px;
+  margin: 32px 0;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px #ffd96320;
+  text-align: center;
+}
+
+.btn-yellow {
+  color: #ffd963;
+  border: 1px solid #ffd963;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+
+.btn-yellow:hover {
+  border: 1px solid #FFA07A;
+}
+
+.link-yellow {
+  color: #ffd963;
+}
+
+.list-social {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item-inline {
+  display: inline-block;
+}
+
+.list-item-inline i {
+  font-size: 24px;
+}
+
+#img-profile {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#summary {
+  padding-bottom: 16px;
+}
